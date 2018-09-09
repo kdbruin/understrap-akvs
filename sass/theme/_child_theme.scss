@@ -1,0 +1,25 @@
+//
+// Navbar
+//
+
+.navbar-brand small {
+    display: block;
+    font-size: $navbar-brand-font-size-small;
+    font-weight: $font-weight-light;
+}
+
+//
+// Featured posts carousel
+//
+
+#featured-blog-posts.carousel {
+    height: 150px;
+    .carousel-inner {
+        .carousel-item {
+            .media {
+                margin-left: $carousel-control-width;
+                margin-right: $carousel-control-width;
+            }            
+        }
+    }
+}
